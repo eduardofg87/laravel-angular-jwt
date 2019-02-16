@@ -14,8 +14,15 @@ JSON Web Tokens are an open, industry standard RFC 7519 method for representing 
 
 JWT.IO allows you to decode, verify and generate JWT.
 
+#### BOOTSTRAP
+Bootstrap is a free and open-source front-end Web framework. It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many earlier web frameworks, it concerns itself with front-end development only.
+
+Bootstrap is the second most-starred project on GitHub, with more than 130,000 stars.
+
+
 ## Credits 
 1. Developed by [Eduardo Gonçalves](https://twitter.com/eduardofg87), I am also on [Telegram](https://t.me/eduardofg87).
 1. [Laravel 5.7](https://laravel.com/docs/5.7)
 1. [Angular 7.2](https://angular.io/guide/quickstart)
 1. [JWT](https://jwt.io/)
+1. [Bootstrap 4.3.1](https://getbootstrap.com/)
