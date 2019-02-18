@@ -8,19 +8,26 @@ import { HttpClient } from '@angular/common/http';
 })
 export class LoginComponent implements OnInit {
 
-  constructor(private http:HttpClient) { }
+  public error = null;
 
   public form ={
     email: null,
     password: null
   };
 
+  constructor(private http:HttpClient) { }
+  
   onSubmit(){
     return this.http.post('http://localhost:8000/api/login', this.form).subscribe(
       data => console.log(data),
-      error => console.log(error)
+      error => this.handleError(error)
     );
   }
+
+  handleError(error){
+    this.error = error.error.error;
+  }
+
   ngOnInit() {
   }
 
